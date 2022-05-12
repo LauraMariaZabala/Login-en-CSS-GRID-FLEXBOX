@@ -1,0 +1,109 @@
+body {
+  margin: 0; }
+
+img {
+  max-width: 90%; }
+
+@media screen and (max-width: 800px) {
+  .card-2 {
+    display: none; }
+
+  .card__content {
+    margin: 6rem auto 0; } }
+@media screen and (min-width: 800px) {
+  .cards {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 4fr 4fr;
+    grid-auto-flow: column; }
+
+  .card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #056CF2;
+    padding: 3rem; }
+    .card-2__text {
+      text-align: center;
+      font-size: 25px;
+      color: white; } }
+.card {
+  text-align: center;
+  justify-items: center; }
+  .card__content {
+    margin: 6rem auto 0; }
+    .card__content--title {
+      font-size: 31px;
+      text-align: center; }
+    .card__content--btn-mypartner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      border-radius: 40px;
+      background-color: transparent;
+      width: 62%;
+      height: 56px;
+      border: 1px solid #C4C4C4;
+      text-decoration: solid black;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 21px; }
+    .card__content--img-mypartner {
+      margin-right: 15px; }
+    .card__content--line {
+      border: 1px solid #a8a6a6;
+      width: 62%;
+      margin-top: 20px; }
+    .card__content form {
+      width: 70%;
+      margin: 0 auto; }
+    .card__content--form-control {
+      align-items: center;
+      margin: 24px auto;
+      text-align: left; }
+      .card__content--form-control--label {
+        display: block;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        margin: 0 auto; }
+      .card__content--form-control--input {
+        display: block;
+        width: 90%;
+        height: 56px;
+        border: 1px solid #C4C4C4;
+        border-radius: 40px;
+        margin: 0 auto; }
+      .card__content--form-control--button {
+        width: 90%;
+        height: 56px;
+        background-color: #3F8DFD;
+        border-radius: 40px;
+        color: white;
+        margin: 0 auto;
+        border-radius: 40px;
+        border: transparent;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 21px; }
+    .card__content--form-confirm {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 90%; }
+      .card__content--form-confirm--remember {
+        font-size: 18px;
+        font-weight: 700; }
+      .card__content--form-confirm--check {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px; }
+      .card__content--form-confirm--forgot-password {
+        text-align: right;
+        text-decoration: solid black;
+        font-weight: 700;
+        font-size: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
